@@ -7,9 +7,9 @@
 ==================
 ```javascript
 $('img').imagePulse({
-size:20,
-speed:200,
-ZindexAxtive:100,
-ZindexNormal:1
+size:20, //设置图片单边放大的像素数，默认是20px
+speed:200,//设置图片放大所需时间 默认是200毫秒
+ZindexAxtive:100,//设置图片在放大时的z-index值，默认是100
+ZindexNormal:1//设置图片在不放大的时候的z-index值
 });
 ```
